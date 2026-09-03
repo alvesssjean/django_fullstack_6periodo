@@ -1,11 +1,23 @@
-.venv
-db.sqlite3
-__init__.py
-__init__.cpython-314.pyc
-settings.cpython-314.pyc
-urls.cpython-314.pyc
-wsgi.cpython-314.pyc
-__pycahe__
-.vscode
-.env
+# Ambiente virtual (venv)
+.venv/
+venv/
+ENV/
 
+# Arquivos do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Configurações e banco de dados do Django
+*.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Arquivos de IDE e sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
