@@ -7,3 +7,5 @@ urls.cpython-314.pyc
 wsgi.cpython-314.pyc
 __pycahe__
 .vscode
+.env
+
